@@ -1,0 +1,52 @@
+name: macro_tracker
+description: "MacroTrack - personal macro nutrition tracker"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+
+  # Local database
+  drift: ^2.23.1
+  sqlite3_flutter_libs: ^0.5.28
+  path_provider: ^2.1.5
+  path: ^1.9.1
+
+  # Navigation
+  go_router: ^14.8.1
+
+  # Barcode scanning
+  mobile_scanner: ^6.0.5
+
+  # Charts
+  fl_chart: ^0.70.2
+
+  # Networking
+  dio: ^5.8.0+1
+
+  # UI
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+  # Code generation
+  build_runner: ^2.4.14
+  drift_dev: ^2.23.1
+  riverpod_generator: ^2.6.1
+  custom_lint: ^0.7.5
+  riverpod_lint: ^2.6.1
+
+flutter:
+  uses-material-design: true
